@@ -87,7 +87,7 @@ Coba sekarang [di sini](https://my-qr-delta.vercel.app/) ✨
 
 ## 🐋 Self-hosting dengan Docker 🐋
 
-My-QR dapat dengan mudah di-hosting sendiri. Kami menyediakan file [docker-compose.yml](docker-compose.yml) serta gambar kami sendiri. Kami menggunakan GitHub's `ghrc.io` Container Registry.
+My-QR dapat dengan mudah di-hosting sendiri. Kami menyediakan file [docker-compose.yml](docker-compose.yml) serta gambar saya sendiri. Kami menggunakan GitHub's `ghrc.io` Container Registry.
 
 ```bash
 wget https://github.com/JonathanZefanya/my-qr/raw/main/docker-compose.yml
