@@ -19,8 +19,8 @@ export default defineConfig({
         'app_icons/web/splash-2048x2732@2x.png'
       ],
       manifest: {
-        name: 'MiniQR',
-        short_name: 'MiniQR',
+        name: 'MyQR',
+        short_name: 'MyQR',
         description: 'A minimal QR code generator and scanner',
         theme_color: '#ffffff',
         background_color: '#ffffff',
