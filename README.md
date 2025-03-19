@@ -45,17 +45,17 @@ Aplikasi untuk membuat kode QR yang indah dan memindai berbagai jenis kode QR.
 Kamu dapat menginstal aplikasi ini sebagai PWA di perangkat Anda:
 
 1. **Desktop (Chrome/Edge)**:
-   - Kunjungi [my-qr.vercel.app](https://my-qr.vercel.app/)
+   - Kunjungi [my-qr.vercel.app](https://my-qr-delta.vercel.app/)
    - Klik ikon instalasi (➕) di bilah alamat
    - Klik "Install" pada prompt yang muncul
 
 2. **Mobile (Android)**:
-   - Kunjungi [my-qr.vercel.app](https://my-qr.vercel.app/)
+   - Kunjungi [my-qr.vercel.app](https://my-qr-delta.vercel.app/)
    - Ketuk opsi "Add to Home Screen" di menu browser Anda
    - Ketuk "Install" atau "Add"
 
 3. **iOS (Safari)**:
-   - Kunjungi [my-qr.vercel.app](https://my-qr.vercel.app/)
+   - Kunjungi [my-qr.vercel.app](https://my-qr-delta.vercel.app/)
    - Ketuk tombol Share
    - Gulir ke bawah dan ketuk "Add to Home Screen"
    - Ketuk "Add"
@@ -83,7 +83,7 @@ Aplikasi akan berjalan di `localhost` pada port yang ditentukan (biasanya `local
 
 ## 📸 Demo 📸
 
-Coba sekarang [di sini](https://my-qr.vercel.app/) ✨
+Coba sekarang [di sini](https://my-qr-delta.vercel.app/) ✨
 
 ## 🐋 Self-hosting dengan Docker 🐋
 
