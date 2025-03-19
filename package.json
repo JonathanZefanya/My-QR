@@ -1,0 +1,66 @@
+{
+  "name": "my-qr",
+  "private": true,
+  "version": "0.13.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit",
+    "lint": "eslint --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore --ignore-pattern \"*.json\"",
+    "format": "prettier --write",
+    "postinstall": "husky install",
+    "generate-splash": "node scripts/generate-splash-screens.js"
+  },
+  "lint-staged": {
+    "*.{vue,js,jsx,ts,tsx,json}": [
+      "pnpm lint",
+      "pnpm format"
+    ]
+  },
+  "dependencies": {
+    "@floating-ui/vue": "^1.1.6",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue-jsx": "^4.1.2",
+    "@vue/tsconfig": "^0.5.1",
+    "@vueuse/core": "^13.0.0",
+    "autoprefixer": "^10.4.20",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dom-to-image": "^2.6.0",
+    "dom-to-svg": "^0.12.2",
+    "file-saver": "^2.0.5",
+    "html5-qrcode": "^2.3.8",
+    "jszip": "^3.10.1",
+    "lucide-vue-next": "^0.321.0",
+    "qr-code-styling": "1.6.0-rc.1",
+    "radix-vue": "^1.9.17",
+    "reka-ui": "^2.0.2",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss": "^3.4.17",
+    "tailwindcss-animate": "^1.0.7",
+    "vaul-vue": "^0.4.0",
+    "vite": "^6.2.2",
+    "vue": "^3.5.13",
+    "vue-i18n": "^9.14.2"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.10.5",
+    "@types/dom-to-image": "^2.6.7",
+    "@types/node": "^20.17.23",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-tailwindcss": "^3.18.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.4.3",
+    "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
+    "sharp": "^0.33.5",
+    "typescript": "^5.8.2",
+    "vite-plugin-pwa": "^0.21.1",
+    "vue-eslint-parser": "^9.4.3"
+  }
+}

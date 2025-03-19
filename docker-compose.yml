@@ -1,0 +1,9 @@
+---
+version: "3.8"
+services:
+  my-qr:
+    image: ghcr.io/JonathanZefanya/my-qr:latest
+    container_name: my-qr
+    ports:
+      - 8081:8080
+    restart: unless-stopped
