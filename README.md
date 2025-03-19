@@ -28,6 +28,15 @@ Aplikasi untuk membuat kode QR yang indah dan memindai berbagai jenis kode QR.
 - 📦 Ekspor data massal: Impor file CSV dengan beberapa string data dan ekspor kode QR untuk semuanya sekaligus.
 - 📲 Dukungan PWA: Instal MyQR sebagai aplikasi desktop atau seluler
 
+## 🛠️ Teknologi yang Digunakan 🛠️
+
+Proyek ini dibangun menggunakan teknologi berikut:
+
+- [Vite](https://vitejs.dev/): Build tool yang cepat untuk pengembangan modern.
+- [Node.js](https://nodejs.org/): Runtime JavaScript untuk server-side.
+- [Vue.js](https://vuejs.org/): Framework JavaScript untuk membangun antarmuka pengguna.
+
+
 ## 🚀 Instalasi 🚀
 
 ### Menggunakan Docker
